@@ -11,7 +11,7 @@ Our Church is a member of the Reformed Presbyterian Church of North America (hyp
 We welcome all visitors and would love to meet you. If you would like to visit or contact us, please do so at the following: 
 
 
-<table>
+<table style="border-collapse: collapse">
 <tr>
 <td>Sunday Worship</td>
 <td>Times</td>
