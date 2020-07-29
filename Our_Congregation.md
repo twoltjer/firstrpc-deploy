@@ -10,7 +10,18 @@ Our Church is a member of the Reformed Presbyterian Church of North America (hyp
 
 We welcome all visitors and would love to meet you. If you would like to visit or contact us, please do so at the following: 
 
-Sunday Worship: 	Every Sunday at 10am & 6pm  
-Location: 		Puritan Reformed Theological Seminary, 2965 Leonard St NE, Grand Rapids, MI 49525(map link)  
-Contact: 		Pastor Craig Scott craig.scott1560@FirstRP.org  
-			Elder Jake Schwartz email………
+
+<table>
+<tr>
+<td>Sunday Worship</td>
+<td>Times</td>
+</tr>
+<tr>
+<td>Location</td>
+<td>Address</td>
+</tr>
+<tr>
+<td>Contact</td>
+<td>Info</td>
+</tr>
+</table>
