@@ -1,1 +1,9 @@
 theme: minima
+
+toc:
+  - title: Our Church
+    subfolderitems:
+      - page: Our Congregation
+        url: /Our_Church/Our_Congregation.html
+      - page: Our Vision
+        url: /Our_Church/Our_Congregation.html
