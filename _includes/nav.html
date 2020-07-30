@@ -4,7 +4,7 @@
   {% endif %}
   {% if item.subnav %}
   <div class="subnav">
-    <button class="subnavbtn">{{ item.title }} <i class="fa fa-caret-down"></i></button>
+    <a class="subnavbtn">{{ item.title }} <i class="fa fa-caret-down"></i></a>
     <div class="subnav-content">
       {% include nav.html nav=item.subnav %}
     </div>
