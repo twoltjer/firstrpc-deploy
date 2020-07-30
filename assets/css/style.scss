@@ -73,3 +73,26 @@ div.dropdown-content > div:hover
   width: 100%;
   background-image: url("/Media/navbar_bg.jpg");
 }
+
+.splitpane 
+{
+  border: 1px solid #ccc;
+  padding: 1em;
+  width: calc(50% - 3em);
+  float: left;
+}
+
+.splitpane h3
+{
+  margin-top: auto;
+}
+
+.splitpane-left
+{
+  margin-right: 0.5em;
+}
+
+.splitpane-left
+{
+  margin-left: 0.5em;
+}
