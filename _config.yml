@@ -18,6 +18,27 @@ nav:
         url: "/Our_Church/Our_Congregation"
       - title: Our Vision
         url: "/Our_Church/Our_Vision"
+      - title: Our Beliefs
+        url: "/Our_Church/Our_Beliefs"
+      - title: Our Leadership
+        url: "/Our_Church/Our_Leadership"
+  - title: Church Life
+    url: "/Church_Life"
+    subnav:
+      - title: Worship
+        url: "/Church_Life/Worship"
+      - title: Prayer Meeting
+        url: "/Church_Life/Prayer_Meeting"
+      - title: Evangelism
+        url: "/Church_Life/Evangelism"
+      - title: Events
+        url: "/Church_Life/Events"
+  - title: Sermons
+    url: "/Sermons"
+  - title: Blog
+    url: "/Blog"
+  - title: Contact
+    url: "/Contact"
 
 plugins:
  - jekyll-feed

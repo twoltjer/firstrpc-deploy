@@ -20,6 +20,9 @@
 .site-nav div a
 {
   padding: 1em;
+  font-weight: bold;
+  color: #fff;
+
 }
 
 .dropdown-content
@@ -35,7 +38,38 @@
   background-color: #ffffff;
 }
 
-.site-nav div:hover a:hover, div.dropdown-content div:hover
+.site-nav > div > div:hover
 {
-  background-color: #ddd;
+  background-color: rgba(0,0,0,0.2);
+}
+
+div.dropdown-content > div > a
+{
+  color: #333;
+}
+
+div.dropdown-content > div:hover
+{
+  color: black;
+  background-color: #ccc;
+}
+
+
+.site-header {
+  min-height: auto;
+  line-height: auto;
+}
+
+.site-header div.wrapper, .banner {
+  text-align: center;
+}
+
+.site-nav {
+  float: none;
+}
+
+.nav-bg
+{
+  width: 100%;
+  background-image: url("/Media/navbar_bg.jpg");
 }
