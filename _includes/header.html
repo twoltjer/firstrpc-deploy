@@ -4,7 +4,7 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}"><img class="banner" src="/Media/logo_wide.jpg" width="100%" alt="First RP Church"/></a>
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}"><img class="banner" src="/Media/logo_wide.jpg" width="50%" alt="First RP Church"/></a>
   </div>
   <div class="nav-bg">
     <div class="wrapper">
@@ -18,9 +18,8 @@
               </svg>
             </span>
           </label>
-
           <div class="trigger">
-            {% include nav.html nav=site.nav %}
+              {% include nav.html nav=site.nav %}
           </div>
         </nav>
       {%- endif -%}

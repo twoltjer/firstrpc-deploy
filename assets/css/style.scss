@@ -6,17 +6,6 @@
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
 
-.site-nav div
-{
-  float: left;
-}
-
-.dropdown-content div
-{
-  float: none;
-  text-align: left;
-}
-
 .site-nav div a
 {
   padding: 1em;
@@ -28,7 +17,25 @@
   display: none;
 }
 
+.site-nav
+{
+  max-width: $navbar-width;
+  margin: auto;
+}
+
 @media screen and (min-width: $on-medium) {
+  .site-nav div
+  {
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown-content div
+  {
+    float: none;
+    text-align: left;
+  }
+
   .site-nav div a
   {
     color: #fff;
