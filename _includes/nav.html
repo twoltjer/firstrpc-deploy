@@ -1,9 +1,13 @@
-<ul>
-    {% for item in include.nav %}
-      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-  
-      {% if item.subnav %}
-        {% include nav.html nav=item.subnav %}
-      {% endif %}
-    {% endfor %}
-  </ul>
+{% for item in include.nav %}
+  {% if item.url %}
+    <a href="{{ item.url }}">{{ item.title }}</a>
+  {% endif %}
+  {% if item.subnav %}
+  <div class="subnav">
+    <button class="subnavbtn">{{ item.title }} <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      {% include nav.html nav=item.subnav %}
+    </div>
+  </div>
+  {% endif %}
+{% endfor %}

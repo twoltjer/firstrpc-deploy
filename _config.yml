@@ -12,7 +12,6 @@ nav:
   - title: Home
     url: "/"
   - title: Our Church
-    url: "/Our_Church"
     subnav: 
       - title: Our Congregation
         url: "/Our_Church/Our_Congregation"
