@@ -5,3 +5,37 @@
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
+
+.site-nav div
+{
+  float: left;
+}
+
+.dropdown-content div
+{
+  float: none;
+  text-align: left;
+}
+
+.site-nav div a
+{
+  padding: 1em;
+}
+
+.dropdown-content
+{
+  display: none;
+}
+
+.dropdown:hover .dropdown-content 
+{
+  display: block;
+  position: absolute;
+  box-shadow: 0 0.5em 1em 0 rgba(0,0,0,0.2);;
+  background-color: #ffffff;
+}
+
+.site-nav div:hover a:hover, div.dropdown-content div:hover
+{
+  background-color: #ddd;
+}

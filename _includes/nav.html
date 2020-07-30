@@ -1,0 +1,10 @@
+{% for item in include.nav %}
+  <div{% if item.subnav %} class="dropdown"{% endif %}>
+    <a href="{{ item.url }}">{{ item.title }}{% if item.subnav %} <i class="fa fa-caret-down"></i>{% endif %}</a>
+    {% if item.subnav %}
+    <div class="dropdown-content">
+      {% include nav.html nav=item.subnav %}
+    </div>
+    {% endif %}
+  </div>
+{% endfor %}
