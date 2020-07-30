@@ -6,3 +6,15 @@ description: >
 
 # Build settings
 theme: minima
+
+# Navigation
+nav:
+  - title: Home
+    url: "/"
+  - title: Our Church
+    url: "/Our_Church"
+    subnav: 
+      - title: Our Congregation
+        url: "/Our_Church/Our_Congregation"
+      - title: Our Vision
+        url: "/Our_Church/Our_Vision"
