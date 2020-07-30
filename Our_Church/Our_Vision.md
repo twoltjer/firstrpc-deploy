@@ -1,3 +1,7 @@
+---
+title: Our Vision
+---
+
 ### _“Lord, let Grand Rapids Flourish by the preaching of Thy word and the praising of Thy name.”_
 
 Our heart is to see God glorified in the city of Grand Rapids. Like every city, Grand Rapids is in need of the Gospel. All people are born in sin, rebel against the Creator, and live under His wrath (Ephesians 2:1; Romans 1:18). The good news is that “Christ Jesus came into the world to save sinners” (1 Timothy 1:15), to transform people by the power of His Holy Spirit, all “to the praise of the glory of his grace” (Ephesians 1:6). The Gospel is “the power of God unto salvation” (Romans 1:16) and is able to change any man, family, or city. An example of the power of the Gospel is Kidderminster, England during the 17th century. Kidderminster was a dark and godless town until God worked through the preaching of Richard Baxter. Baxter describes the work of God, “As you passed along the streets on the Sabbath morning, you might hear a hundred households singing psalms at their family worship. In a word, when I came to Kidderminster, there was only about one family in a whole street that worshipped God and called upon His name. When I left, there were some streets where not a family did not do so." 
