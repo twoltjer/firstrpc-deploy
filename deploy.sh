@@ -2,6 +2,7 @@
 set -e
 
 # Clone deploy repository
+rm -rf deploy
 git clone git@github.com:twtduck/firstrpc-deploy deploy
 
 # Hard reset with every deployment
