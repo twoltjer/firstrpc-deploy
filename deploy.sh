@@ -1,15 +1,26 @@
 #!/bin/bash
 set -e
-git submodule update --init --recursive
-pushd _site
-git checkout master
-popd
+
+# Clone deploy repository
+git clone git@github.com:twtduck/firstrpc-deploy deploy
+
+# Hard reset with every deployment
+mv deploy/.git deploygit
+rm -rf deploy
+mkdir deploy 
+mv deploygit deploy/.git
+
+# Perform a full build
+bundle exec jekyll clean
 bundle exec jekyll build
-cp -R Media _site
-rm _site/README.md
-cp -R deploy-conf-files/* _site
-pushd _site
+
+# Copy site files to deploy
+cp -R _site/* deploy
+cp -R Media deploy
+rm deploy/README.md
+cp -R deploy-conf-files/* deploy
+pushd deploy
 git add -A
-git commit -m "Deploy script"
+git commit -m "Deploy $(date)"
 git push
 popd
