@@ -2,7 +2,7 @@
 title: First RP Church
 email: thomas@thomaswoltjer.com
 description: > 
-  First Reformed Presbyterian Church of Grand Rapids is a congregation of the RPCNA located in Grand Rapids, MI. It is led by Pastor Craig Scott and is welcoming to all visitors.
+  First Reformed Presbyterian Church of Grand Rapids is a congregation of the RPCNA located in Grand Rapids, MI. Worship services are held every Sunday at 10am and 6pm in the Puritan Reformed Theological Seminary chapel.
 
 # Navigation
 nav:
@@ -36,6 +36,12 @@ nav:
     url: "/Blog"
   - title: Contact
     url: "/Contact"
+
+# Social links
+minima: 
+  social_links: 
+    facebook: First-RP-Church-Grand-Rapids-MI-126544054040330
+    sermonaudio: grrpcna
 
 plugins:
  - jekyll-feed
