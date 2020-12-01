@@ -325,13 +325,23 @@ table td { border: 1px solid #e8e8e8; }
 
 .dropdown-content, i.fa.dropdown-arrow { display: none; }
 
-.site-nav { max-width: 650px; margin: auto; }
+.site-nav { max-width: 650px; margin: auto; z-index: 100; }
 
 .post-content h1, .post-content h2, .post-content h3 { margin-top: auto; }
 
 .nomobile { display: none; }
 
-@media screen and (min-width: 600px) { .nomobile { display: block; } .site-nav div { float: left; overflow: hidden; } .dropdown-content div { float: none; text-align: left; } .site-nav div a { color: #fff; } i.fa.dropdown-arrow { display: inline-block; } .dropdown:hover .dropdown-content { display: block; position: absolute; box-shadow: 0 0.5em 1em 0 rgba(0, 0, 0, 0.2); background-color: #ffffff; } .site-nav > div > div:hover { background-color: rgba(0, 0, 0, 0.2); } div.dropdown-content > div > a { color: #333; } div.dropdown-content > div:hover { color: black; background-color: #ccc; } .splitpane { border: 1px solid #ccc; padding: 1em; float: left; } .one-third { width: calc(33% - 28px); } .two-thirds { width: calc(67% - 56px); } .splitpane-left { margin-right: 15px; } .splitpane-right { margin-left: 0; } }
+.landing-page { display: flex; flex-direction: row; flex-wrap: wrap; }
+
+.landing-page-container { flex: 100%; max-width: calc(100% - 2em - 2px); padding: 0.5em; margin: 0.5em; border: 1px solid #ccc; }
+
+.landing-page-caption { text-decoration: none; color: black; /*background-image: url("/Media/navbar_bg.jpg");*/ width: 100%; font-size: 2em; text-align: center; }
+
+.landing-page-container > img { width: 100%; }
+
+.landing-page-container:hover { text-decoration-thickness: 2px; }
+
+@media screen and (min-width: 600px) { .nomobile { display: block; } .landing-page-container { flex: 50%; max-width: calc(50% - 2em - 2px); } .site-nav div { float: left; overflow: hidden; } .dropdown-content div { float: none; text-align: left; } .site-nav div a { color: #fff; } i.fa.dropdown-arrow { display: inline-block; } .dropdown:hover .dropdown-content { display: block; position: absolute; box-shadow: 0 0.5em 1em 0 rgba(0, 0, 0, 0.2); background-color: #ffffff; } .site-nav > div > div:hover { background-color: rgba(0, 0, 0, 0.2); } div.dropdown-content > div > a { color: #333; } div.dropdown-content > div:hover { color: black; background-color: #ccc; } .splitpane { border: 1px solid #ccc; padding: 1em; float: left; } .one-third { width: calc(33% - 28px); } .two-thirds { width: calc(67% - 56px); } .splitpane-left { margin-right: 15px; } .splitpane-right { margin-left: 0; } }
 
 .site-header { min-height: auto; line-height: auto; }
 
