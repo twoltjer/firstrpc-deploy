@@ -1,4 +1,7 @@
 #!/bin/bash
+# Display commands when they are run
+set -x
+# Stop running on any errors
 set -e
 
 # Clone deploy repository
@@ -6,7 +9,7 @@ rm -rf deploy
 git clone git@github.com:twtduck/firstrpc-deploy deploy
 
 # Hard reset with every deployment
-mv deploy/.git deploygit
+mv -v deploy/.git deploygit
 rm -rf deploy
 mkdir deploy 
 mv deploygit deploy/.git
