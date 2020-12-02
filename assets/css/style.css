@@ -323,7 +323,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .site-nav div a { padding: 1em; font-weight: bold; }
 
-.dropdown-content, i.fa.dropdown-arrow { display: none; }
+.dropdown-content, i.fa.dropdown-arrow { display: none; z-index: 20; }
 
 .site-nav { max-width: 650px; margin: auto; z-index: 100; }
 
